@@ -10,8 +10,8 @@ Session 8 Assignment
 - C1 C2 c3 P1 C4 C5 C6 c7 P2 C8 C9 C10 GAP c11 (cN is 1x1 Layer)
 - 10 misclassified images display
 
-***Kept everything in 1 ipynb file for ease of trials on Colab. Did not keep multiple files to try multiple experiments***
-***Can be easily converted to modular code once finalized***
+***Seperated in model and utils file***
+***Initial runs were in direct ipynb files and the results are from the same***
 
 ## First experiment - Batch Normalization: S8-Batch.ipynb
 ### Results:
@@ -106,3 +106,4 @@ Session 8 Assignment
 - Overall
   - Batch normalization gives best results for this particular dataset and network
   - Group normalization is better than Layer Normalization
+  - The network is best fit around 14 to 16th Epoch and then starts to overfit a bit
